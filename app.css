@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500&display=swap');
+*
+
+/*apply to all elements*/
+    {
+    font-family: 'Nunito sans', sans-serif;
+    text-transform: capitalize;
+    color: aliceblue;
+    transition: all 0.3s ease;
+
+
+}
+
+body {
+    background-color: #564a4a;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(97, 99, 101);
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    right: 0;
+    left: 0;
+
+
+
+
+
+
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo-container {
+    background-color: #FFA500;
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+
+.logo-text {
+
+    color: white;
+    animation: logoAnimation 3s infinite;
+}
+
+.logo-textr {
+    color: #222;
+    margin-left: 5px;
+    animation: logoAnimation 3s infinite;
+}
+
+section {
+    padding: 50 px;
+}
+
+nav a {
+    font-weight: 800;
+    margin: 0 5px;
+
+}
+
+nav a:hover {
+    color: #FFA500;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+
+.Home {
+    background-color: #ebe6dd;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.Home h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.Home p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding-top: 3em;
+}
+
+.hh {
+    color: #FFA500;
+
+}
+
+.check-icon {
+    color: #FFA500;
+    padding-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1rem 0;
+}
+
+.list-item {
+    font-size: 1rem;
+    padding: 1rem 0;
+
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 1rem;
+
+
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    padding: 2rem 0;
+    background-color: #333;
+    border-radius: 0.5rem;
+    text-align: center;
+
+
+
+}
+
+
+.box1:hover {
+    background-image: url('https://www.exercise.com/blog/wp-content/uploads/2017/08/personal-trainer-motivates-client-doing-push-ups_73589162-1600x1600.jpg');
+    background-size: 300px 400px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    .price {
+        background-color: transparent;
+        color: transparent;
+    }
+
+    .list-item {
+        color: transparent;
+    }
+
+    .check-icon {
+        color: transparent;
+
+    }
+}
+
+.box2:hover {
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.-uDtUodHApS1Zykp131khwHaE9&pid=Api&P=0&h=220');
+    background-size: 300px 400px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    .price {
+        background-color: transparent;
+        color: transparent;
+    }
+
+    .list-item {
+        color: transparent;
+    }
+
+    .check-icon {
+        color: transparent;
+
+    }
+}
+
+.box3:hover {
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.Bx7FK7KYkmUZB0WeTIEqeQHaFK&pid=Api&P=0&h=220');
+    background-size: 300px 400px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    .price {
+        background-color: transparent;
+        color: transparent;
+    }
+
+    .list-item {
+        color: transparent;
+    }
+
+    .check-icon {
+        color: transparent;
+
+    }
+}
+
+.box4:hover {
+    background-image: url('https://powermasterfitness.com/wp-content/uploads/2021/06/nutrition1.jpg');
+    background-size: 300px 400px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    .price {
+        background-color: transparent;
+        color: transparent;
+    }
+
+    .list-item {
+        color: transparent;
+    }
+
+    .check-icon {
+        color: transparent;
+
+    }
+}
+
+.box5:hover {
+    background-image: url('https://evillefitness.com/wp-content/uploads/2020/08/Tracking-Your-Training-Workout-Progress.jpg');
+    background-size: 300px 400px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    .price {
+        background-color: transparent;
+        color: transparent;
+    }
+
+    .list-item {
+        color: transparent;
+    }
+
+    .check-icon {
+        color: transparent;
+
+    }
+}
+
+.box6:hover {
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.BcFKlgEJ7FOedDQmlaDsuwHaE8&pid=Api&P=0&h=220');
+    background-size: 300px 400px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    .price {
+        background-color: transparent;
+        color: transparent;
+    }
+
+    .list-item {
+        color: transparent;
+    }
+
+    .check-icon {
+        color: transparent;
+
+    }
+}
+
+.title {
+    background-color: #FFA500;
+
+    font-size: large;
+    border-radius: 5px;
+
+
+
+}
+
+.price {
+    background-color: #555;
+    padding: 5px 5px;
+    font-size: large;
+    z-index: 1;
+}
+
+.btn {
+
+    padding: 10px 20px;
+    background-color: #FFA500;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 800px;
+
+
+}
+
+.btn:hover {
+    background-color: #e3cea7;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-img {
+    flex: 1;
+    padding: 1rem;
+    margin-right: 1rem;
+    width: 50%;
+
+
+    border-image: round;
+}
+
+#ab {
+    border-radius: 0.5rem;
+    border: 1rem solid #333;
+}
+
+
+.about-content2 {
+    flex: 1;
+    padding: 1rem;
+    margin-left: 5rem;
+
+
+
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+}
+
+.contact-form {
+    max-width: 75rem;
+    margin: 1rem auto;
+    text-align: center
+}
+
+.inp {
+    width: 100%;
+    background-color: #333;
+    border-radius: 0.5rem;
+    padding: 0.7rem 0.3rem;
+    font-size: 1.5rem;
+    margin: 0.3rem;
+}
+
+footer {
+    background-color: #564a4a;
+    padding: 2rem 0;
+}
+
+.credits {
+    text-align: center;
+    padding: 2rem;
+  border-top: 2px solid #FFA500;
+
+  
+}
+
+
+.credits p {
+    font-weight: 100px;
+}
+.box-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box-container div{
+   
+    margin:100px;
+    padding:100px;
+    display:flex;
+    flex-direction: column;
+}
+.box-container div:hover{
+   transform: scale(1.02);
+}
+
+.box-container div a{
+    margin:3px;
+    font-weight: bold;
+}
+.box-container div a:hover{
+    color:#e8cece;
+}
+
+.box-container div h2{
+    margin: 1rem 0;
+    font-weight: bold;
+   
+}
+
+@keyframes logoAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: logoAnimation 3s infinite;
+  }
+  .location
+  {
+    color:royalblue;
+  }
